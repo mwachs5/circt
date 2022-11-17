@@ -373,6 +373,7 @@ static const llvm::StringMap<AnnoRecord> annotationRecords{{
     {verifBlackBoxAnnoClass,
      {stdResolve, applyWithoutTarget<false, FExtModuleOp>}},
     {elaborationArtefactsDirectoryAnnoClass, NoTargetAnnotation},
+    {elaborationArtifactsDirectoryAnnoClass, NoTargetAnnotation},
     {subCircuitsTargetDirectoryAnnoClass, NoTargetAnnotation},
     {retimeModulesFileAnnoClass, NoTargetAnnotation},
     {retimeModuleAnnoClass,
