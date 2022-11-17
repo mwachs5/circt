@@ -164,6 +164,8 @@ constexpr const char *scalaClassAnnoClass =
     "sifive.enterprise.firrtl.ScalaClassAnnotation";
 constexpr const char *elaborationArtefactsDirectoryAnnoClass =
     "sifive.enterprise.firrtl.ElaborationArtefactsDirectory";
+constexpr const char *elaborationArtifactsDirectoryAnnoClass =
+    "sifive.enterprise.firrtl.ElaborationArtifactsDirectory";    
 constexpr const char *subCircuitsTargetDirectoryAnnoClass =
     "sifive.enterprise.grandcentral.phases.SubCircuitsTargetDirectory";
 constexpr const char *testHarnessPathAnnoClass =
